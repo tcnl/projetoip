@@ -1,0 +1,11 @@
+0-  Nome: Juca
+ Idade: 25
+ Custo de alimentacao: 200.0
+ Status: true
+ Horas servidas a causa: 612
+ Identificador: S123
+ Arma Utilizada: Gauss Rifle
+
+
+Numeros de prisioneiros capturados: 1
+Numeros de soldados mortos: 0

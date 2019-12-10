@@ -1,0 +1,11 @@
+0- Nome: LadyD
+Idade: 23
+ID: S234
+Horas de trabalho: 800.0
+Quantidade de drogas vendidas: 20.0
+Faturamento do Ano: 22400.0
+Faturamento geral: 22400.0
+Total de drogas vendidas: 20.0
+Melhor acompanhante: S234
+Dinheiro ganho no ano: Caps0.0
+Dinheiro ganho por acompanhantes: Caps22400.0
