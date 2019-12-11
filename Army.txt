@@ -1,11 +1,11 @@
-0-  Nome: Juca
- Idade: 25
- Custo de alimentacao: 200.0
+0-  Nome: AAAA
+ Idade: 15
+ Custo de alimentacao: 5000.0
  Status: true
- Horas servidas a causa: 612
- Identificador: S123
- Arma Utilizada: Gauss Rifle
+ Horas servidas a causa: 2520
+ Identificador: 159
+ Arma Utilizada: Fat Man
 
 
-Numeros de prisioneiros capturados: 1
+Numeros de prisioneiros capturados: 0
 Numeros de soldados mortos: 0

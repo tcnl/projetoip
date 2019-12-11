@@ -1,19 +1,7 @@
-Type: Psycho
-Peso: 984.0
-Preco por Quilo: 200.0
-Faturamento da Droga no Ano: 4000.0
-Faturamento Geral da Droga: 4000.0
-Vendido para: 
-BOS: 220.0
-CIT: 0.0
-Gunners: 0.0
-Raiders: 0.0
 
-
-
-Melhor droga: Psycho
-Brotherhood of Steel: 220.0
+Melhor droga: 
+Brotherhood of Steel: 0.0
 Institute: 0.0
 Gunners: 0.0
 Raiders: 0.0
-Dinheiro do ano: Caps 4000.0Dinheiro ganho com drogas: Caps 4000.0
+Dinheiro do ano: Caps 0.0Dinheiro ganho com drogas: Caps 0.0

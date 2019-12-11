@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component inheritJdk="true">
+	<exclude-output/>
+	<contentEntry url="file://$MODULE_DIR$"/>
+	<lib name="poi-3.13-20150929.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/poi-3.13-20150929.jar!/"/>
+	</lib>
+	<lib name="aspectjrt-1.9.5.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/dependencies/aspectjrt-1.9.5.jar!/"/>
+	</lib>
+	<levels>
+		<level name="aspectj-1.9.5" value="project"/>
+	</levels>
+</component>

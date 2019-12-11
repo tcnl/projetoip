@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
 	<classpathentry kind="src" path="src"/>
-	<classpathentry kind="lib" path="poi-3.13-20150929.jar"/>
+	<classpathentry exported="true" kind="lib" path="poi-3.13-20150929.jar"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/aspectj-1.9.5"/>
+	<classpathentry exported="true" kind="lib" path="dependencies/aspectjrt-1.9.5.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

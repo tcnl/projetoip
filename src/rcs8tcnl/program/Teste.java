@@ -1,21 +1,21 @@
 package rcs8tcnl.program;
 
+import org.apache.poi.hssf.usermodel.HSSFWorkbook;
+import org.apache.poi.ss.usermodel.Row;
+import org.apache.poi.ss.usermodel.Sheet;
+import org.apache.poi.ss.usermodel.Workbook;
+import rcs8tcnl.basics.Companion;
+import rcs8tcnl.basics.Drugs;
+import rcs8tcnl.basics.MoneyIncome;
+import rcs8tcnl.exceptions.*;
+import rcs8tcnl.front.TheEmpireBusiness;
+
 import java.io.File;
 import java.io.FileOutputStream;
 import java.io.IOException;
 import java.util.Scanner;
 
-import javax.swing.plaf.synth.SynthSpinnerUI;
-
-import org.apache.poi.hssf.usermodel.HSSFWorkbook;
-import org.apache.poi.ss.usermodel.Row;
-import org.apache.poi.ss.usermodel.Sheet;
-import org.apache.poi.ss.usermodel.Workbook;
-
-import rcs8tcnl.basics.*;
-import rcs8tcnl.exceptions.*;
-import rcs8tcnl.front.*;
-import rcs8tcnl.repository.*;
+import org.aspectj.lang.*;
 
 public class Teste {
 	public static final String FILES_SPREADSHEET = "Apache.xls";
