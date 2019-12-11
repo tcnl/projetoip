@@ -9,5 +9,6 @@
 	<classpathentry exported="true" kind="lib" path="dependencies/spring-beans-5.2.2.RELEASE.jar"/>
 	<classpathentry exported="true" kind="lib" path="dependencies/spring-context-5.2.2.RELEASE.jar"/>
 	<classpathentry exported="true" kind="lib" path="dependencies/spring-test-5.2.2.RELEASE.jar"/>
+	<classpathentry kind="lib" path="dependencies/annotations-17.0.0.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

@@ -5,6 +5,8 @@ import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.IOException;
 
+import org.aspectj.lang.annotation.After;
+import org.jetbrains.annotations.NotNull;
 import rcs8tcnl.business.*;
 import rcs8tcnl.basics.*;
 import rcs8tcnl.exceptions.*;
@@ -15,6 +17,49 @@ import rcs8tcnl.repository.people.*;
 import rcs8tcnl.repository.weapon.*;
 
 import java.util.Formatter;
+
+import org.aspectj.lang.*;
+import org.aspectj.lang.annotation.AfterReturning;
+import org.aspectj.lang.annotation.Aspect;
+import org.aspectj.lang.annotation.Before;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.context.annotation.ComponentScan;
+import org.springframework.context.annotation.Configuration;
+import org.springframework.context.annotation.EnableAspectJAutoProxy;
+import org.springframework.stereotype.Component;
+import org.springframework.test.context.ContextConfiguration;
+import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
+
+import java.util.Arrays;
+
+@Configuration
+@EnableAspectJAutoProxy
+@ComponentScan(basePackages = { "rcs8tcnl.front" })
+class SpringContextAOP {
+}
+//Adding Aspect
+@Aspect
+@Component
+class MyAspect {
+	//Point cuts
+	@Before("execution(* rcs8tcnl.front.TheEmpireBusiness.*(..)")
+	//Weavings
+	public void before(@NotNull JoinPoint joinPoint){
+		System.out.print("Antes do metodo: ");
+		System.out.println(joinPoint.getSignature().getName());
+		System.out.println(Arrays.toString(joinPoint.getArgs()));
+	}
+
+	@After("execution(* rcs8tcnl.front.TheEmpireBusiness.*(..)")
+	public void after(@NotNull JoinPoint joinPoint){
+		System.out.println(joinPoint.getSignature().getName() + " Retornou: ");
+	}
+
+}
+
+
+@ContextConfiguration(classes = TheEmpireBusiness.class)
+
 
 public class TheEmpireBusiness {
 	private MoneyIncomeBusiness money;

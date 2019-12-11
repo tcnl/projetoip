@@ -1,5 +1,6 @@
 package rcs8tcnl.basics;
 
+
 public class Army extends People {
 
 	private String gun; // Arma de cada soldado

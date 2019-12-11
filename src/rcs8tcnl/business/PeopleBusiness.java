@@ -13,36 +13,6 @@ import rcs8tcnl.exceptions.*;
 import rcs8tcnl.repository.people.IteratorPeople;
 import rcs8tcnl.repository.people.PeopleInterface;
 
-import org.aspectj.lang.*;
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.context.annotation.ComponentScan;
-import org.springframework.context.annotation.Configuration;
-import org.springframework.context.annotation.EnableAspectJAutoProxy;
-import org.springframework.stereotype.Component;
-import org.springframework.test.context.ContextConfiguration;
-import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
-
-@Configuration
-@EnableAspectJAutoProxy
-@ComponentScan(basePackages = { "rcs8tcnl" })
-class SpringContextAOP {
-}
-@Aspect
-class MyAspect {
-	@Before("execution(* rcs8tcnl.business.PeopleBusiness.*(..)")
-	public void before(JoinPoint joinPoint){
-		System.out.print("Antes do metodo: ");
-		System.out.println(joinPoint.getSignature().getName());
-		System.out.println(Arrays.toString(joinPoint.getArgs()));
-	}
-
-	@AfterReturning(pointcut = "execution(* rcs8tcnl.business.PeopleBusiness.*(..)", returning = "result")
-	public void afterReturning(JoinPoint joinPoint, Object result){
-		System.out.println(joinPoint.getSignature().getName() + " Retornou: " + result);
-	}
-
-}
-
 public class PeopleBusiness {
 
 	private PeopleInterface people;

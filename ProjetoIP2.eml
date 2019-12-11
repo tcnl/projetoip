@@ -20,6 +20,9 @@
 	<lib name="spring-test-5.2.2.RELEASE.jar" scope="COMPILE">
 		<relative-module-cls project-related="jar://$PROJECT_DIR$/dependencies/spring-test-5.2.2.RELEASE.jar!/"/>
 	</lib>
+	<lib name="annotations-17.0.0.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/dependencies/annotations-17.0.0.jar!/"/>
+	</lib>
 	<levels>
 		<level name="aspectj-1.9.5" value="project"/>
 	</levels>
