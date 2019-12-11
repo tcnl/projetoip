@@ -8,6 +8,18 @@
 	<lib name="aspectjrt-1.9.5.jar" scope="COMPILE">
 		<relative-module-cls project-related="jar://$PROJECT_DIR$/dependencies/aspectjrt-1.9.5.jar!/"/>
 	</lib>
+	<lib name="spring-core-5.2.2.RELEASE.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/dependencies/spring-core-5.2.2.RELEASE.jar!/"/>
+	</lib>
+	<lib name="spring-beans-5.2.2.RELEASE.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/dependencies/spring-beans-5.2.2.RELEASE.jar!/"/>
+	</lib>
+	<lib name="spring-context-5.2.2.RELEASE.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/dependencies/spring-context-5.2.2.RELEASE.jar!/"/>
+	</lib>
+	<lib name="spring-test-5.2.2.RELEASE.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/dependencies/spring-test-5.2.2.RELEASE.jar!/"/>
+	</lib>
 	<levels>
 		<level name="aspectj-1.9.5" value="project"/>
 	</levels>

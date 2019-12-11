@@ -3,7 +3,11 @@
 	<classpathentry kind="src" path="src"/>
 	<classpathentry exported="true" kind="lib" path="poi-3.13-20150929.jar"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
-	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/aspectj-1.9.5"/>
+	<classpathentry exported="true" kind="con" path="org.eclipse.jdt.USER_LIBRARY/aspectj-1.9.5"/>
 	<classpathentry exported="true" kind="lib" path="dependencies/aspectjrt-1.9.5.jar"/>
+	<classpathentry exported="true" kind="lib" path="dependencies/spring-core-5.2.2.RELEASE.jar"/>
+	<classpathentry exported="true" kind="lib" path="dependencies/spring-beans-5.2.2.RELEASE.jar"/>
+	<classpathentry exported="true" kind="lib" path="dependencies/spring-context-5.2.2.RELEASE.jar"/>
+	<classpathentry exported="true" kind="lib" path="dependencies/spring-test-5.2.2.RELEASE.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
