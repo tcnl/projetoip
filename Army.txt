@@ -1,11 +1,20 @@
-0-  Nome: AAAA
- Idade: 15
- Custo de alimentacao: 5000.0
+0-  Nome: 21'121'2
+ Idade: 213132
+ Custo de alimentacao: 312313.0
  Status: true
- Horas servidas a causa: 2520
- Identificador: 159
- Arma Utilizada: Fat Man
+ Horas servidas a causa: 123213
+ Identificador: SasAS
+ Arma Utilizada: Gauss Rifle
 
 
-Numeros de prisioneiros capturados: 0
+1-  Nome: hjdgfvdsv
+ Idade: 4532
+ Custo de alimentacao: 345.0
+ Status: true
+ Horas servidas a causa: 32424
+ Identificador: khjkadasd
+ Arma Utilizada: Flame Thrower
+
+
+Numeros de prisioneiros capturados: 1
 Numeros de soldados mortos: 0

@@ -1,2 +1,8 @@
+Nome: 9843
+Idade: 7876990
+DogTag: 34677
+Custo: 89879.0
+Horas Trabalhadas: 565467464
+Quantidade de Drogas Produzidas: 0.0
 Total de drogas produzidas: 0.0
 Numeros de prisioneiros mortos: 0

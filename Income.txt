@@ -1,7 +1,19 @@
+Type: Med-X
+Peso: -1111.0
+Preco por Quilo: 5656.0
+Faturamento da Droga no Ano: 0.0
+Faturamento Geral da Droga: 0.0
+Vendido para: 
+BOS: 0.0
+CIT: 0.0
+Gunners: 0.0
+Raiders: 6767.0
 
-Melhor droga: 
+
+
+Melhor droga: Med-X
 Brotherhood of Steel: 0.0
 Institute: 0.0
 Gunners: 0.0
-Raiders: 0.0
+Raiders: 6767.0
 Dinheiro do ano: Caps 0.0Dinheiro ganho com drogas: Caps 0.0

@@ -15,8 +15,6 @@ import java.io.FileOutputStream;
 import java.io.IOException;
 import java.util.Scanner;
 
-import org.aspectj.lang.*;
-
 public class Teste {
 	public static final String FILES_SPREADSHEET = "Apache.xls";
 	public static final String FILES_MONEYINCOME_SHEET = "Money";

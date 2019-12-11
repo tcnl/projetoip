@@ -1,11 +1,32 @@
 package rcs8tcnl.business;
 
 import java.io.IOException;
+import java.util.Arrays;
 
+import org.aspectj.lang.JoinPoint;
+import org.aspectj.lang.annotation.AfterReturning;
+import org.aspectj.lang.annotation.Aspect;
+import org.aspectj.lang.annotation.Before;
 import rcs8tcnl.basics.Weapon;
 import rcs8tcnl.exceptions.*;
 import rcs8tcnl.repository.weapon.IteratorWeapon;
 import rcs8tcnl.repository.weapon.WeaponInterface;
+
+@Aspect
+class WeaponAspect {
+	@Before("execution(* rcs8tcnl.business.WeaponBusiness.*(..)")
+	public void before(JoinPoint joinPoint){
+		System.out.print("Antes do metodo: ");
+		System.out.println(joinPoint.getSignature().getName());
+		System.out.println(Arrays.toString(joinPoint.getArgs()));
+	}
+
+	@AfterReturning(pointcut = "execution(* rcs8tcnl.business.WeaponBusiness.*(..)", returning = "result")
+	public void afterReturning(JoinPoint joinPoint, Object result){
+		System.out.println(joinPoint.getSignature().getName() + " Retornou: " + result);
+	}
+
+}
 
 public class WeaponBusiness {
 

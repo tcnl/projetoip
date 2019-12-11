@@ -1,4 +1,11 @@
+0- Nome: 78768345fdg
+Idade: 43536
+ID: 54654678
+Horas de trabalho: 4.5345435E7
+Quantidade de drogas vendidas: 0.0
+Faturamento do Ano: 0.0
+Faturamento geral: 0.0
 Total de drogas vendidas: 0.0
-Melhor acompanhante: null
+Melhor acompanhante: 54654678
 Dinheiro ganho no ano: Caps0.0
 Dinheiro ganho por acompanhantes: Caps0.0
